@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_css/style-reset.css">
+    <link rel="stylesheet" href="style_css/style.css">
+    <link rel="stylesheet" href="style_css/style-moviles.css">
+    <title>Practincado JS encriptador de texto</title>
+</head>
+
+<body>
+    <main>
+        <div class="logo">
+            <img class="img-logo" src="Imagenes/logo.png">
+        </div>
+        <textarea class="tit-prin" id="Texto" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="div-advetencia">
+            <img class="warning" id="idwarning" src="Imagenes/bi_exclamation-circle-fill.png">
+            <p class="p-forma" id="iderror">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="div-botones">
+            <button class="encriptar">
+                <p class="p-encriptar">Encriptar</p>
+            </button>
+            <button class="desencriptar">
+                <p class="p-desencriptar">Desencriptar</p>
+            </button>
+        </div>
+        <div class="text-area">
+            <textarea class="frase-codificada" id="fraseCodi" readonly></textarea>
+            <img src="Imagenes/muneco.png" alt="" class="muneco">
+            <div class="descr-area">
+                <p class="p-descr-area-tit">Ningún mensaje fue encontrado</p>
+                <p class="p-descr-area-descr">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+            <button class="copiar">
+                <p class="p-copiar">Copiar</p>
+            </button>
+        </div>
+    </main>
+        
+        <footer>
+            <p class="copyright">&copy Programador principiante de Alura, Creando un encriptador de texto en Js - Creado por Salvador Parra</p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+    </html>

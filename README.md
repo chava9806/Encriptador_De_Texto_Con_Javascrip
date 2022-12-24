@@ -1,1 +1,1 @@
-# Encriptador_De_Texto_Con_Javascrip
+# Encriptador_De_Texto_Con_Javascript
